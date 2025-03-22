@@ -6,7 +6,67 @@
 html,
 body {
   margin: 0;
-  padding: 0;
+  /* padding: 50 0 0 100; */
 }
 
-/* Add styles here! */
+header {
+  padding: 50 0 50 200;
+  background-color: white;
+}
+
+h1 {
+  margin-bottom: 16px;
+}
+
+p {
+  margin-bottom: 8px;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+main {
+  background-color: hsl(0deg, 0%, 30%);
+  padding: 50 0 50 200
+} 
+
+.max-width-wrapper {
+  /* padding: 48px; */
+  max-width: 350px;
+}
+
+.foo {
+  /* padding: 48px; */
+  max-width: 750px;
+}
+
+.intro-chunk {
+  /* background-color: white; */
+  padding: 8px;
+}
+
+.card {
+  background-color: white;
+  padding: 8px;
+}
+
+.indented-heading {
+  background-color: hsl(45deg, 100%, 50%);
+  max-width: fit-content;
+  padding: 8px;
+  margin-left: -16px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.bar {
+  background-color: hsl(45deg, 100%, 40%);
+  color: hsl(45deg, 100%, 50%);
+  margin-bottom: -56px;
+}
+
+.baz {
+  background-color: hsl(0deg, 0%, 60%);
+  padding-bottom: 8px;
+}

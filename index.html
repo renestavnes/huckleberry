@@ -1,19 +1,16 @@
 <html>
-  <head>
-    <title>Huckleberry — CSS for JavaScript Developers</title>
-    <link rel="stylesheet" href="./style.css" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1"
-    />
-    <meta charset="UTF-8" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
+
+<head>
+  <title>Huckleberry — CSS for JavaScript Developers</title>
+  <link rel="stylesheet" href="./style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="baz">
     <header>
       <div class="max-width-wrapper">
         <div class="intro-chunk">
@@ -28,12 +25,18 @@
         </div>
       </div>
     </header>
-    <main>
-      <section class="max-width-wrapper">
+  </div>
+  <main>
+    <section class="max-width-wrapper foo">
+      <div class="baz">
         <div class="card">
-          <h2 class="indented-heading">
-            Wealth comes from operations
+          <h2 class="indented-heading bar">
+            Wealth comes from operations 2
           </h2>
+          <h2 class="indented-heading">
+            Wealth comes from operations 1
+          </h2>
+
           <p>
             No modern business can thrive without developing a
             specialization in operations. Huckleberry has helped
@@ -48,7 +51,9 @@
             resonates, let's chat!
           </p>
         </div>
-      </section>
-    </main>
-  </body>
+      </div>
+    </section>
+  </main>
+</body>
+
 </html>
